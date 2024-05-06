@@ -2,7 +2,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => res.send("louheyyy"));
+app.get("/", (req, res) => res.send("louheyyyy"));
 
 app.listen(3000, () => console.log("Server ready on port 3000."));
 
